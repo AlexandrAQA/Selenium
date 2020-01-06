@@ -1,5 +1,4 @@
 from selenium import webdriver
-#from selenium.webdriver.common.keys import Keys
 import time
 
 '''This code does the following: firstly opens the first link,

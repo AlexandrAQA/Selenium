@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-webdriver = webdriver.Chrome(executable_path=("C:\Drivers\chromedriver.exe"))
+webdriver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver.exe")
 
 webdriver.get('https://www.onliner.by/')     #Get URL
 webdriver.implicitly_wait(5)
